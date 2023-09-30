@@ -43,6 +43,7 @@ a {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -54,7 +55,6 @@ a {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    gap: 76px;
 }
 
 .header-logo {
@@ -66,7 +66,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-
+    margin-right: 76px;
 }
 
 .logo-color {
@@ -84,6 +84,7 @@ a {
 
 .header-menu-link {
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -115,7 +116,7 @@ a {
 
 .main {
     background-color: #2E2F42;
-    padding: 188px;
+    padding: 188px 0;
 }
 
 .main-container {
@@ -147,6 +148,7 @@ a {
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
+    min-width: 169px;
 }
 
 .main-btn:hover,
@@ -224,6 +226,7 @@ a {
 
 .team-item {
     background-color: #FFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-image {}
@@ -315,6 +318,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-footer {
@@ -327,7 +331,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 16px;
 }
 
 .footer-container {
