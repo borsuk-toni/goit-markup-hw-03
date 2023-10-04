@@ -54,7 +54,6 @@ a {
 .header-navigation {
     display: flex;
     align-items: center;
-    flex-grow: 1;
 }
 
 .header-logo {
@@ -94,6 +93,7 @@ a {
 
 .contact-info {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contact-list {
@@ -117,10 +117,10 @@ a {
 .main {
     background-color: #2E2F42;
     padding: 188px 0;
+    text-align: center;
 }
 
 .main-container {
-    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 48px;
@@ -134,6 +134,7 @@ a {
     letter-spacing: 0.02em;
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .main-btn {
